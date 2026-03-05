@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@400;600&display=swap');
+
+/* Обнуление */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ffdae9;
+}
+
+.app-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Фон */
+.background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
+  transform: translate(-50%, -50%) scale(1.1);
+  filter: blur(8px) brightness(0.9);
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 192, 203, 0.1);
+  z-index: -5;
+}
+
+/* Карточка */
+.card-container {
+  position: relative;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.45); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  
+  width: 90%;
+  max-width: 380px;
+  /* Фиксируем высоту, чтобы элементы не прыгали */
+  height: 50vh; 
+  min-height: 400px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 25px;
+  text-align: center;
+  color: #3d141f;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+  
+  /* Анимация появления всей карточки */
+  animation: slideUpMain 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+/* Элементы внутри */
+.flowers {
+  font-size: 70px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  flex-shrink: 0; /* Чтобы не сжимались */
+}
+
+.date-badge {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ff5c8a;
+  color: white;
+  padding: 8px 22px;
+  border-radius: 50px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+/* Контейнер для текста, который появляется */
+.content-fade-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.8s ease-out forwards;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Marck Script', cursive;
+  font-size: 38px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.message {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.signature {
+  font-family: 'Marck Script', cursive;
+  font-size: 28px;
+}
+
+/* Кнопка */
+/* Кнопка */
+.open-button {
+  /* Убираем лишние margin и ставим авто-отступы по бокам */
+  margin: 50px auto 50px auto; 
+  
+  background: #ff5c8a;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 92, 138, 0.4);
+  transition: 0.3s;
+  
+  /* Гарантируем, что кнопка ведет себя как блочный элемент для центровки */
+  display: block; 
+  width: fit-content; /* Кнопка будет подстраиваться под текст, а не растягиваться */
+}
+
+.open-button:hover {
+  background: #ff758f;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 92, 138, 0.5);
+}
+
+/* НИЖНЯЯ ЧАСТЬ (Разделитель и футер) */
+/* Мы используем margin-top: auto, чтобы вытолкнуть их вниз */
+.divider {
+  margin-top: auto; 
+  padding-top: 20px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Анимации */
+@keyframes slideUpMain {
+  0% { opacity: 0; transform: translateY(100px) scale(0.9); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.bounce {
+  animation: bounceAnim 0.6s ease;
+}
+
+@keyframes bounceAnim {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1) translateY(-10px); }
+}

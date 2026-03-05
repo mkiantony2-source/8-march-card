@@ -1,0 +1,1014 @@
+|   |   \---bin
+|   |           semver.js
+|   |
+|   +---shebang-command
+|   |       index.js
+|   |       license
+|   |       package.json
+|   |       readme.md
+|   |
+|   +---shebang-regex
+|   |       index.d.ts
+|   |       index.js
+|   |       license
+|   |       package.json
+|   |       readme.md
+|   |
+|   +---source-map-js
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   source-map.d.ts
+|   |   |   source-map.js
+|   |   |
+|   |   \---lib
+|   |           array-set.js
+|   |           base64-vlq.js
+|   |           base64.js
+|   |           binary-search.js
+|   |           mapping-list.js
+|   |           quick-sort.js
+|   |           source-map-consumer.d.ts
+|   |           source-map-consumer.js
+|   |           source-map-generator.d.ts
+|   |           source-map-generator.js
+|   |           source-node.d.ts
+|   |           source-node.js
+|   |           util.js
+|   |
+|   +---strip-json-comments
+|   |       index.d.ts
+|   |       index.js
+|   |       license
+|   |       package.json
+|   |       readme.md
+|   |
+|   +---supports-color
+|   |       browser.js
+|   |       index.js
+|   |       license
+|   |       package.json
+|   |       readme.md
+|   |
+|   +---tinyglobby
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |
+|   |   \---dist
+|   |           index.cjs
+|   |           index.d.cts
+|   |           index.d.mts
+|   |           index.mjs
+|   |
+|   +---type-check
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |
+|   |   \---lib
+|   |           check.js
+|   |           index.js
+|   |           parse-type.js
+|   |
+|   +---update-browserslist-db
+|   |       check-npm-version.js
+|   |       cli.js
+|   |       index.d.ts
+|   |       index.js
+|   |       LICENSE
+|   |       package.json
+|   |       README.md
+|   |       utils.js
+|   |
+|   +---uri-js
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   yarn.lock
+|   |   |
+|   |   \---dist
+|   |       +---es5
+|   |       |       uri.all.d.ts
+|   |       |       uri.all.js
+|   |       |       uri.all.js.map
+|   |       |       uri.all.min.d.ts
+|   |       |       uri.all.min.js
+|   |       |       uri.all.min.js.map
+|   |       |
+|   |       \---esnext
+|   |           |   index.d.ts
+|   |           |   index.js
+|   |           |   index.js.map
+|   |           |   regexps-iri.d.ts
+|   |           |   regexps-iri.js
+|   |           |   regexps-iri.js.map
+|   |           |   regexps-uri.d.ts
+|   |           |   regexps-uri.js
+|   |           |   regexps-uri.js.map
+|   |           |   uri.d.ts
+|   |           |   uri.js
+|   |           |   uri.js.map
+|   |           |   util.d.ts
+|   |           |   util.js
+|   |           |   util.js.map
+|   |           |
+|   |           \---schemes
+|   |                   http.d.ts
+|   |                   http.js
+|   |                   http.js.map
+|   |                   https.d.ts
+|   |                   https.js
+|   |                   https.js.map
+|   |                   mailto.d.ts
+|   |                   mailto.js
+|   |                   mailto.js.map
+|   |                   urn-uuid.d.ts
+|   |                   urn-uuid.js
+|   |                   urn-uuid.js.map
+|   |                   urn.d.ts
+|   |                   urn.js
+|   |                   urn.js.map
+|   |                   ws.d.ts
+|   |                   ws.js
+|   |                   ws.js.map
+|   |                   wss.d.ts
+|   |                   wss.js
+|   |                   wss.js.map
+|   |
+|   +---vite
+|   |   |   client.d.ts
+|   |   |   LICENSE.md
+|   |   |   package.json
+|   |   |   README.md
+|   |   |
+|   |   +---bin
+|   |   |       openChrome.js
+|   |   |       vite.js
+|   |   |
+|   |   +---dist
+|   |   |   +---client
+|   |   |   |       client.mjs
+|   |   |   |       env.mjs
+|   |   |   |
+|   |   |   \---node
+|   |   |       |   cli.js
+|   |   |       |   index.d.ts
+|   |   |       |   index.js
+|   |   |       |   module-runner.d.ts
+|   |   |       |   module-runner.js
+|   |   |       |
+|   |   |       \---chunks
+|   |   |               build.js
+|   |   |               build2.js
+|   |   |               chunk.js
+|   |   |               config.js
+|   |   |               config2.js
+|   |   |               dist.js
+|   |   |               lib.js
+|   |   |               logger.js
+|   |   |               moduleRunnerTransport.d.ts
+|   |   |               optimizer.js
+|   |   |               postcss-import.js
+|   |   |               preview.js
+|   |   |               server.js
+|   |   |
+|   |   +---misc
+|   |   |       false.js
+|   |   |       true.js
+|   |   |
+|   |   \---types
+|   |       |   customEvent.d.ts
+|   |       |   hmrPayload.d.ts
+|   |       |   hot.d.ts
+|   |       |   import-meta.d.ts
+|   |       |   importGlob.d.ts
+|   |       |   importMeta.d.ts
+|   |       |   metadata.d.ts
+|   |       |   package.json
+|   |       |
+|   |       \---internal
+|   |               cssPreprocessorOptions.d.ts
+|   |               lightningcssOptions.d.ts
+|   |               terserOptions.d.ts
+|   |
+|   +---which
+|   |   |   CHANGELOG.md
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   which.js
+|   |   |
+|   |   \---bin
+|   |           node-which
+|   |
+|   +---word-wrap
+|   |       index.d.ts
+|   |       index.js
+|   |       LICENSE
+|   |       package.json
+|   |       README.md
+|   |
+|   +---yallist
+|   |       iterator.js
+|   |       LICENSE
+|   |       package.json
+|   |       README.md
+|   |       yallist.js
+|   |
+|   +---yocto-queue
+|   |       index.d.ts
+|   |       index.js
+|   |       license
+|   |       package.json
+|   |       readme.md
+|   |
+|   +---zod
+|   |   |   index.cjs
+|   |   |   index.d.cts
+|   |   |   index.d.ts
+|   |   |   index.js
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |
+|   |   +---locales
+|   |   |       index.cjs
+|   |   |       index.d.cts
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       package.json
+|   |   |
+|   |   +---mini
+|   |   |       index.cjs
+|   |   |       index.d.cts
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       package.json
+|   |   |
+|   |   +---src
+|   |   |   |   index.ts
+|   |   |   |
+|   |   |   +---locales
+|   |   |   |       index.ts
+|   |   |   |
+|   |   |   +---mini
+|   |   |   |       index.ts
+|   |   |   |
+|   |   |   +---v3
+|   |   |   |   |   errors.ts
+|   |   |   |   |   external.ts
+|   |   |   |   |   index.ts
+|   |   |   |   |   standard-schema.ts
+|   |   |   |   |   types.ts
+|   |   |   |   |   ZodError.ts
+|   |   |   |   |
+|   |   |   |   +---benchmarks
+|   |   |   |   |       datetime.ts
+|   |   |   |   |       discriminatedUnion.ts
+|   |   |   |   |       index.ts
+|   |   |   |   |       ipv4.ts
+|   |   |   |   |       object.ts
+|   |   |   |   |       primitives.ts
+|   |   |   |   |       realworld.ts
+|   |   |   |   |       string.ts
+|   |   |   |   |       union.ts
+|   |   |   |   |
+|   |   |   |   +---helpers
+|   |   |   |   |       enumUtil.ts
+|   |   |   |   |       errorUtil.ts
+|   |   |   |   |       parseUtil.ts
+|   |   |   |   |       partialUtil.ts
+|   |   |   |   |       typeAliases.ts
+|   |   |   |   |       util.ts
+|   |   |   |   |
+|   |   |   |   +---locales
+|   |   |   |   |       en.ts
+|   |   |   |   |
+|   |   |   |   \---tests
+|   |   |   |           all-errors.test.ts
+|   |   |   |           anyunknown.test.ts
+|   |   |   |           array.test.ts
+|   |   |   |           async-parsing.test.ts
+|   |   |   |           async-refinements.test.ts
+|   |   |   |           base.test.ts
+|   |   |   |           bigint.test.ts
+|   |   |   |           branded.test.ts
+|   |   |   |           catch.test.ts
+|   |   |   |           coerce.test.ts
+|   |   |   |           complex.test.ts
+|   |   |   |           custom.test.ts
+|   |   |   |           date.test.ts
+|   |   |   |           deepmasking.test.ts
+|   |   |   |           default.test.ts
+|   |   |   |           description.test.ts
+|   |   |   |           discriminated-unions.test.ts
+|   |   |   |           enum.test.ts
+|   |   |   |           error.test.ts
+|   |   |   |           firstparty.test.ts
+|   |   |   |           firstpartyschematypes.test.ts
+|   |   |   |           function.test.ts
+|   |   |   |           generics.test.ts
+|   |   |   |           instanceof.test.ts
+|   |   |   |           intersection.test.ts
+|   |   |   |           language-server.source.ts
+|   |   |   |           language-server.test.ts
+|   |   |   |           literal.test.ts
+|   |   |   |           map.test.ts
+|   |   |   |           masking.test.ts
+|   |   |   |           mocker.test.ts
+|   |   |   |           Mocker.ts
+|   |   |   |           nan.test.ts
+|   |   |   |           nativeEnum.test.ts
+|   |   |   |           nullable.test.ts
+|   |   |   |           number.test.ts
+|   |   |   |           object-augmentation.test.ts
+|   |   |   |           object-in-es5-env.test.ts
+|   |   |   |           object.test.ts
+|   |   |   |           optional.test.ts
+|   |   |   |           parser.test.ts
+|   |   |   |           parseUtil.test.ts
+|   |   |   |           partials.test.ts
+|   |   |   |           pickomit.test.ts
+|   |   |   |           pipeline.test.ts
+|   |   |   |           preprocess.test.ts
+|   |   |   |           primitive.test.ts
+|   |   |   |           promise.test.ts
+|   |   |   |           readonly.test.ts
+|   |   |   |           record.test.ts
+|   |   |   |           recursive.test.ts
+|   |   |   |           refine.test.ts
+|   |   |   |           safeparse.test.ts
+|   |   |   |           set.test.ts
+|   |   |   |           standard-schema.test.ts
+|   |   |   |           string.test.ts
+|   |   |   |           transformer.test.ts
+|   |   |   |           tuple.test.ts
+|   |   |   |           unions.test.ts
+|   |   |   |           validations.test.ts
+|   |   |   |           void.test.ts
+|   |   |   |
+|   |   |   +---v4
+|   |   |   |   |   index.ts
+|   |   |   |   |
+|   |   |   |   +---classic
+|   |   |   |   |   |   checks.ts
+|   |   |   |   |   |   coerce.ts
+|   |   |   |   |   |   compat.ts
+|   |   |   |   |   |   errors.ts
+|   |   |   |   |   |   external.ts
+|   |   |   |   |   |   from-json-schema.ts
+|   |   |   |   |   |   index.ts
+|   |   |   |   |   |   iso.ts
+|   |   |   |   |   |   parse.ts
+|   |   |   |   |   |   schemas.ts
+|   |   |   |   |   |
+|   |   |   |   |   \---tests
+|   |   |   |   |           anyunknown.test.ts
+|   |   |   |   |           apply.test.ts
+|   |   |   |   |           array.test.ts
+|   |   |   |   |           assignability.test.ts
+|   |   |   |   |           async-parsing.test.ts
+|   |   |   |   |           async-refinements.test.ts
+|   |   |   |   |           base.test.ts
+|   |   |   |   |           bigint.test.ts
+|   |   |   |   |           brand.test.ts
+|   |   |   |   |           catch.test.ts
+|   |   |   |   |           coalesce.test.ts
+|   |   |   |   |           codec-examples.test.ts
+|   |   |   |   |           codec.test.ts
+|   |   |   |   |           coerce.test.ts
+|   |   |   |   |           continuability.test.ts
+|   |   |   |   |           custom.test.ts
+|   |   |   |   |           date.test.ts
+|   |   |   |   |           datetime.test.ts
+|   |   |   |   |           default.test.ts
+|   |   |   |   |           describe-meta-checks.test.ts
+|   |   |   |   |           description.test.ts
+|   |   |   |   |           discriminated-unions.test.ts
+|   |   |   |   |           enum.test.ts
+|   |   |   |   |           error-utils.test.ts
+|   |   |   |   |           error.test.ts
+|   |   |   |   |           file.test.ts
+|   |   |   |   |           firstparty.test.ts
+|   |   |   |   |           fix-json-issue.test.ts
+|   |   |   |   |           from-json-schema.test.ts
+|   |   |   |   |           function.test.ts
+|   |   |   |   |           generics.test.ts
+|   |   |   |   |           hash.test.ts
+|   |   |   |   |           index.test.ts
+|   |   |   |   |           instanceof.test.ts
+|   |   |   |   |           intersection.test.ts
+|   |   |   |   |           json.test.ts
+|   |   |   |   |           lazy.test.ts
+|   |   |   |   |           literal.test.ts
+|   |   |   |   |           map.test.ts
+|   |   |   |   |           nan.test.ts
+|   |   |   |   |           nested-refine.test.ts
+|   |   |   |   |           nonoptional.test.ts
+|   |   |   |   |           nullable.test.ts
+|   |   |   |   |           number.test.ts
+|   |   |   |   |           object.test.ts
+|   |   |   |   |           optional.test.ts
+|   |   |   |   |           partial.test.ts
+|   |   |   |   |           pickomit.test.ts
+|   |   |   |   |           pipe.test.ts
+|   |   |   |   |           prefault.test.ts
+|   |   |   |   |           preprocess.test.ts
+|   |   |   |   |           primitive.test.ts
+|   |   |   |   |           promise.test.ts
+|   |   |   |   |           prototypes.test.ts
+|   |   |   |   |           readonly.test.ts
+|   |   |   |   |           record.test.ts
+|   |   |   |   |           recursive-types.test.ts
+|   |   |   |   |           refine.test.ts
+|   |   |   |   |           registries.test.ts
+|   |   |   |   |           set.test.ts
+|   |   |   |   |           standard-schema.test.ts
+|   |   |   |   |           string-formats.test.ts
+|   |   |   |   |           string.test.ts
+|   |   |   |   |           stringbool.test.ts
+|   |   |   |   |           template-literal.test.ts
+|   |   |   |   |           to-json-schema-methods.test.ts
+|   |   |   |   |           to-json-schema.test.ts
+|   |   |   |   |           transform.test.ts
+|   |   |   |   |           tuple.test.ts
+|   |   |   |   |           union.test.ts
+|   |   |   |   |           url.test.ts
+|   |   |   |   |           validations.test.ts
+|   |   |   |   |           void.test.ts
+|   |   |   |   |
+|   |   |   |   +---core
+|   |   |   |   |   |   api.ts
+|   |   |   |   |   |   checks.ts
+|   |   |   |   |   |   config.ts
+|   |   |   |   |   |   core.ts
+|   |   |   |   |   |   doc.ts
+|   |   |   |   |   |   errors.ts
+|   |   |   |   |   |   index.ts
+|   |   |   |   |   |   json-schema-generator.ts
+|   |   |   |   |   |   json-schema-processors.ts
+|   |   |   |   |   |   json-schema.ts
+|   |   |   |   |   |   parse.ts
+|   |   |   |   |   |   regexes.ts
+|   |   |   |   |   |   registries.ts
+|   |   |   |   |   |   schemas.ts
+|   |   |   |   |   |   standard-schema.ts
+|   |   |   |   |   |   to-json-schema.ts
+|   |   |   |   |   |   util.ts
+|   |   |   |   |   |   versions.ts
+|   |   |   |   |   |   zsf.ts
+|   |   |   |   |   |
+|   |   |   |   |   \---tests
+|   |   |   |   |       |   extend.test.ts
+|   |   |   |   |       |   index.test.ts
+|   |   |   |   |       |   record-constructor.test.ts
+|   |   |   |   |       |   recursive-tuples.test.ts
+|   |   |   |   |       |
+|   |   |   |   |       \---locales
+|   |   |   |   |               be.test.ts
+|   |   |   |   |               en.test.ts
+|   |   |   |   |               es.test.ts
+|   |   |   |   |               he.test.ts
+|   |   |   |   |               nl.test.ts
+|   |   |   |   |               ru.test.ts
+|   |   |   |   |               tr.test.ts
+|   |   |   |   |               uz.test.ts
+|   |   |   |   |
+|   |   |   |   +---locales
+|   |   |   |   |       ar.ts
+|   |   |   |   |       az.ts
+|   |   |   |   |       be.ts
+|   |   |   |   |       bg.ts
+|   |   |   |   |       ca.ts
+|   |   |   |   |       cs.ts
+|   |   |   |   |       da.ts
+|   |   |   |   |       de.ts
+|   |   |   |   |       en.ts
+|   |   |   |   |       eo.ts
+|   |   |   |   |       es.ts
+|   |   |   |   |       fa.ts
+|   |   |   |   |       fi.ts
+|   |   |   |   |       fr-CA.ts
+|   |   |   |   |       fr.ts
+|   |   |   |   |       he.ts
+|   |   |   |   |       hu.ts
+|   |   |   |   |       hy.ts
+|   |   |   |   |       id.ts
+|   |   |   |   |       index.ts
+|   |   |   |   |       is.ts
+|   |   |   |   |       it.ts
+|   |   |   |   |       ja.ts
+|   |   |   |   |       ka.ts
+|   |   |   |   |       kh.ts
+|   |   |   |   |       km.ts
+|   |   |   |   |       ko.ts
+|   |   |   |   |       lt.ts
+|   |   |   |   |       mk.ts
+|   |   |   |   |       ms.ts
+|   |   |   |   |       nl.ts
+|   |   |   |   |       no.ts
+|   |   |   |   |       ota.ts
+|   |   |   |   |       pl.ts
+|   |   |   |   |       ps.ts
+|   |   |   |   |       pt.ts
+|   |   |   |   |       ru.ts
+|   |   |   |   |       sl.ts
+|   |   |   |   |       sv.ts
+|   |   |   |   |       ta.ts
+|   |   |   |   |       th.ts
+|   |   |   |   |       tr.ts
+|   |   |   |   |       ua.ts
+|   |   |   |   |       uk.ts
+|   |   |   |   |       ur.ts
+|   |   |   |   |       uz.ts
+|   |   |   |   |       vi.ts
+|   |   |   |   |       yo.ts
+|   |   |   |   |       zh-CN.ts
+|   |   |   |   |       zh-TW.ts
+|   |   |   |   |
+|   |   |   |   \---mini
+|   |   |   |       |   checks.ts
+|   |   |   |       |   coerce.ts
+|   |   |   |       |   external.ts
+|   |   |   |       |   index.ts
+|   |   |   |       |   iso.ts
+|   |   |   |       |   parse.ts
+|   |   |   |       |   schemas.ts
+|   |   |   |       |
+|   |   |   |       \---tests
+|   |   |   |               apply.test.ts
+|   |   |   |               assignability.test.ts
+|   |   |   |               brand.test.ts
+|   |   |   |               checks.test.ts
+|   |   |   |               codec.test.ts
+|   |   |   |               computed.test.ts
+|   |   |   |               error.test.ts
+|   |   |   |               functions.test.ts
+|   |   |   |               index.test.ts
+|   |   |   |               number.test.ts
+|   |   |   |               object.test.ts
+|   |   |   |               prototypes.test.ts
+|   |   |   |               recursive-types.test.ts
+|   |   |   |               standard-schema.test.ts
+|   |   |   |               string.test.ts
+|   |   |   |
+|   |   |   \---v4-mini
+|   |   |           index.ts
+|   |   |
+|   |   +---v3
+|   |   |   |   errors.cjs
+|   |   |   |   errors.d.cts
+|   |   |   |   errors.d.ts
+|   |   |   |   errors.js
+|   |   |   |   external.cjs
+|   |   |   |   external.d.cts
+|   |   |   |   external.d.ts
+|   |   |   |   external.js
+|   |   |   |   index.cjs
+|   |   |   |   index.d.cts
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   package.json
+|   |   |   |   standard-schema.cjs
+|   |   |   |   standard-schema.d.cts
+|   |   |   |   standard-schema.d.ts
+|   |   |   |   standard-schema.js
+|   |   |   |   types.cjs
+|   |   |   |   types.d.cts
+|   |   |   |   types.d.ts
+|   |   |   |   types.js
+|   |   |   |   ZodError.cjs
+|   |   |   |   ZodError.d.cts
+|   |   |   |   ZodError.d.ts
+|   |   |   |   ZodError.js
+|   |   |   |
+|   |   |   +---helpers
+|   |   |   |       enumUtil.cjs
+|   |   |   |       enumUtil.d.cts
+|   |   |   |       enumUtil.d.ts
+|   |   |   |       enumUtil.js
+|   |   |   |       errorUtil.cjs
+|   |   |   |       errorUtil.d.cts
+|   |   |   |       errorUtil.d.ts
+|   |   |   |       errorUtil.js
+|   |   |   |       parseUtil.cjs
+|   |   |   |       parseUtil.d.cts
+|   |   |   |       parseUtil.d.ts
+|   |   |   |       parseUtil.js
+|   |   |   |       partialUtil.cjs
+|   |   |   |       partialUtil.d.cts
+|   |   |   |       partialUtil.d.ts
+|   |   |   |       partialUtil.js
+|   |   |   |       typeAliases.cjs
+|   |   |   |       typeAliases.d.cts
+|   |   |   |       typeAliases.d.ts
+|   |   |   |       typeAliases.js
+|   |   |   |       util.cjs
+|   |   |   |       util.d.cts
+|   |   |   |       util.d.ts
+|   |   |   |       util.js
+|   |   |   |
+|   |   |   \---locales
+|   |   |           en.cjs
+|   |   |           en.d.cts
+|   |   |           en.d.ts
+|   |   |           en.js
+|   |   |
+|   |   +---v4
+|   |   |   |   index.cjs
+|   |   |   |   index.d.cts
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   package.json
+|   |   |   |
+|   |   |   +---classic
+|   |   |   |       checks.cjs
+|   |   |   |       checks.d.cts
+|   |   |   |       checks.d.ts
+|   |   |   |       checks.js
+|   |   |   |       coerce.cjs
+|   |   |   |       coerce.d.cts
+|   |   |   |       coerce.d.ts
+|   |   |   |       coerce.js
+|   |   |   |       compat.cjs
+|   |   |   |       compat.d.cts
+|   |   |   |       compat.d.ts
+|   |   |   |       compat.js
+|   |   |   |       errors.cjs
+|   |   |   |       errors.d.cts
+|   |   |   |       errors.d.ts
+|   |   |   |       errors.js
+|   |   |   |       external.cjs
+|   |   |   |       external.d.cts
+|   |   |   |       external.d.ts
+|   |   |   |       external.js
+|   |   |   |       from-json-schema.cjs
+|   |   |   |       from-json-schema.d.cts
+|   |   |   |       from-json-schema.d.ts
+|   |   |   |       from-json-schema.js
+|   |   |   |       index.cjs
+|   |   |   |       index.d.cts
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       iso.cjs
+|   |   |   |       iso.d.cts
+|   |   |   |       iso.d.ts
+|   |   |   |       iso.js
+|   |   |   |       package.json
+|   |   |   |       parse.cjs
+|   |   |   |       parse.d.cts
+|   |   |   |       parse.d.ts
+|   |   |   |       parse.js
+|   |   |   |       schemas.cjs
+|   |   |   |       schemas.d.cts
+|   |   |   |       schemas.d.ts
+|   |   |   |       schemas.js
+|   |   |   |
+|   |   |   +---core
+|   |   |   |       api.cjs
+|   |   |   |       api.d.cts
+|   |   |   |       api.d.ts
+|   |   |   |       api.js
+|   |   |   |       checks.cjs
+|   |   |   |       checks.d.cts
+|   |   |   |       checks.d.ts
+|   |   |   |       checks.js
+|   |   |   |       core.cjs
+|   |   |   |       core.d.cts
+|   |   |   |       core.d.ts
+|   |   |   |       core.js
+|   |   |   |       doc.cjs
+|   |   |   |       doc.d.cts
+|   |   |   |       doc.d.ts
+|   |   |   |       doc.js
+|   |   |   |       errors.cjs
+|   |   |   |       errors.d.cts
+|   |   |   |       errors.d.ts
+|   |   |   |       errors.js
+|   |   |   |       index.cjs
+|   |   |   |       index.d.cts
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       json-schema-generator.cjs
+|   |   |   |       json-schema-generator.d.cts
+|   |   |   |       json-schema-generator.d.ts
+|   |   |   |       json-schema-generator.js
+|   |   |   |       json-schema-processors.cjs
+|   |   |   |       json-schema-processors.d.cts
+|   |   |   |       json-schema-processors.d.ts
+|   |   |   |       json-schema-processors.js
+|   |   |   |       json-schema.cjs
+|   |   |   |       json-schema.d.cts
+|   |   |   |       json-schema.d.ts
+|   |   |   |       json-schema.js
+|   |   |   |       package.json
+|   |   |   |       parse.cjs
+|   |   |   |       parse.d.cts
+|   |   |   |       parse.d.ts
+|   |   |   |       parse.js
+|   |   |   |       regexes.cjs
+|   |   |   |       regexes.d.cts
+|   |   |   |       regexes.d.ts
+|   |   |   |       regexes.js
+|   |   |   |       registries.cjs
+|   |   |   |       registries.d.cts
+|   |   |   |       registries.d.ts
+|   |   |   |       registries.js
+|   |   |   |       schemas.cjs
+|   |   |   |       schemas.d.cts
+|   |   |   |       schemas.d.ts
+|   |   |   |       schemas.js
+|   |   |   |       standard-schema.cjs
+|   |   |   |       standard-schema.d.cts
+|   |   |   |       standard-schema.d.ts
+|   |   |   |       standard-schema.js
+|   |   |   |       to-json-schema.cjs
+|   |   |   |       to-json-schema.d.cts
+|   |   |   |       to-json-schema.d.ts
+|   |   |   |       to-json-schema.js
+|   |   |   |       util.cjs
+|   |   |   |       util.d.cts
+|   |   |   |       util.d.ts
+|   |   |   |       util.js
+|   |   |   |       versions.cjs
+|   |   |   |       versions.d.cts
+|   |   |   |       versions.d.ts
+|   |   |   |       versions.js
+|   |   |   |
+|   |   |   +---locales
+|   |   |   |       ar.cjs
+|   |   |   |       ar.d.cts
+|   |   |   |       ar.d.ts
+|   |   |   |       ar.js
+|   |   |   |       az.cjs
+|   |   |   |       az.d.cts
+|   |   |   |       az.d.ts
+|   |   |   |       az.js
+|   |   |   |       be.cjs
+|   |   |   |       be.d.cts
+|   |   |   |       be.d.ts
+|   |   |   |       be.js
+|   |   |   |       bg.cjs
+|   |   |   |       bg.d.cts
+|   |   |   |       bg.d.ts
+|   |   |   |       bg.js
+|   |   |   |       ca.cjs
+|   |   |   |       ca.d.cts
+|   |   |   |       ca.d.ts
+|   |   |   |       ca.js
+|   |   |   |       cs.cjs
+|   |   |   |       cs.d.cts
+|   |   |   |       cs.d.ts
+|   |   |   |       cs.js
+|   |   |   |       da.cjs
+|   |   |   |       da.d.cts
+|   |   |   |       da.d.ts
+|   |   |   |       da.js
+|   |   |   |       de.cjs
+|   |   |   |       de.d.cts
+|   |   |   |       de.d.ts
+|   |   |   |       de.js
+|   |   |   |       en.cjs
+|   |   |   |       en.d.cts
+|   |   |   |       en.d.ts
+|   |   |   |       en.js
+|   |   |   |       eo.cjs
+|   |   |   |       eo.d.cts
+|   |   |   |       eo.d.ts
+|   |   |   |       eo.js
+|   |   |   |       es.cjs
+|   |   |   |       es.d.cts
+|   |   |   |       es.d.ts
+|   |   |   |       es.js
+|   |   |   |       fa.cjs
+|   |   |   |       fa.d.cts
+|   |   |   |       fa.d.ts
+|   |   |   |       fa.js
+|   |   |   |       fi.cjs
+|   |   |   |       fi.d.cts
+|   |   |   |       fi.d.ts
+|   |   |   |       fi.js
+|   |   |   |       fr-CA.cjs
+|   |   |   |       fr-CA.d.cts
+|   |   |   |       fr-CA.d.ts
+|   |   |   |       fr-CA.js
+|   |   |   |       fr.cjs
+|   |   |   |       fr.d.cts
+|   |   |   |       fr.d.ts
+|   |   |   |       fr.js
+|   |   |   |       he.cjs
+|   |   |   |       he.d.cts
+|   |   |   |       he.d.ts
+|   |   |   |       he.js
+|   |   |   |       hu.cjs
+|   |   |   |       hu.d.cts
+|   |   |   |       hu.d.ts
+|   |   |   |       hu.js
+|   |   |   |       hy.cjs
+|   |   |   |       hy.d.cts
+|   |   |   |       hy.d.ts
+|   |   |   |       hy.js
+|   |   |   |       id.cjs
+|   |   |   |       id.d.cts
+|   |   |   |       id.d.ts
+|   |   |   |       id.js
+|   |   |   |       index.cjs
+|   |   |   |       index.d.cts
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       is.cjs
+|   |   |   |       is.d.cts
+|   |   |   |       is.d.ts
+|   |   |   |       is.js
+|   |   |   |       it.cjs
+|   |   |   |       it.d.cts
+|   |   |   |       it.d.ts
+|   |   |   |       it.js
+|   |   |   |       ja.cjs
+|   |   |   |       ja.d.cts
+|   |   |   |       ja.d.ts
+|   |   |   |       ja.js
+|   |   |   |       ka.cjs
+|   |   |   |       ka.d.cts
+|   |   |   |       ka.d.ts
+|   |   |   |       ka.js
+|   |   |   |       kh.cjs
+|   |   |   |       kh.d.cts
+|   |   |   |       kh.d.ts
+|   |   |   |       kh.js
+|   |   |   |       km.cjs
+|   |   |   |       km.d.cts
+|   |   |   |       km.d.ts
+|   |   |   |       km.js
+|   |   |   |       ko.cjs
+|   |   |   |       ko.d.cts
+|   |   |   |       ko.d.ts
+|   |   |   |       ko.js
+|   |   |   |       lt.cjs
+|   |   |   |       lt.d.cts
+|   |   |   |       lt.d.ts
+|   |   |   |       lt.js
+|   |   |   |       mk.cjs
+|   |   |   |       mk.d.cts
+|   |   |   |       mk.d.ts
+|   |   |   |       mk.js
+|   |   |   |       ms.cjs
+|   |   |   |       ms.d.cts
+|   |   |   |       ms.d.ts
+|   |   |   |       ms.js
+|   |   |   |       nl.cjs
+|   |   |   |       nl.d.cts
+|   |   |   |       nl.d.ts
+|   |   |   |       nl.js
+|   |   |   |       no.cjs
+|   |   |   |       no.d.cts
+|   |   |   |       no.d.ts
+|   |   |   |       no.js
+|   |   |   |       ota.cjs
+|   |   |   |       ota.d.cts
+|   |   |   |       ota.d.ts
+|   |   |   |       ota.js
+|   |   |   |       package.json
+|   |   |   |       pl.cjs
+|   |   |   |       pl.d.cts
+|   |   |   |       pl.d.ts
+|   |   |   |       pl.js
+|   |   |   |       ps.cjs
+|   |   |   |       ps.d.cts
+|   |   |   |       ps.d.ts
+|   |   |   |       ps.js
+|   |   |   |       pt.cjs
+|   |   |   |       pt.d.cts
+|   |   |   |       pt.d.ts
+|   |   |   |       pt.js
+|   |   |   |       ru.cjs
+|   |   |   |       ru.d.cts
+|   |   |   |       ru.d.ts
+|   |   |   |       ru.js
+|   |   |   |       sl.cjs
+|   |   |   |       sl.d.cts
+|   |   |   |       sl.d.ts
+|   |   |   |       sl.js
+|   |   |   |       sv.cjs
+|   |   |   |       sv.d.cts
+|   |   |   |       sv.d.ts
+|   |   |   |       sv.js
+|   |   |   |       ta.cjs
+|   |   |   |       ta.d.cts
+|   |   |   |       ta.d.ts
+|   |   |   |       ta.js
+|   |   |   |       th.cjs
+|   |   |   |       th.d.cts
+|   |   |   |       th.d.ts
+|   |   |   |       th.js
+|   |   |   |       tr.cjs
+|   |   |   |       tr.d.cts
+|   |   |   |       tr.d.ts
+|   |   |   |       tr.js
+|   |   |   |       ua.cjs
+|   |   |   |       ua.d.cts
+|   |   |   |       ua.d.ts
+|   |   |   |       ua.js
+|   |   |   |       uk.cjs
+|   |   |   |       uk.d.cts
+|   |   |   |       uk.d.ts
+|   |   |   |       uk.js
+|   |   |   |       ur.cjs
+|   |   |   |       ur.d.cts
+|   |   |   |       ur.d.ts
+|   |   |   |       ur.js
+|   |   |   |       uz.cjs
+|   |   |   |       uz.d.cts
+|   |   |   |       uz.d.ts
+|   |   |   |       uz.js
+|   |   |   |       vi.cjs
+|   |   |   |       vi.d.cts
+|   |   |   |       vi.d.ts
+|   |   |   |       vi.js
+|   |   |   |       yo.cjs
+|   |   |   |       yo.d.cts
+|   |   |   |       yo.d.ts
+|   |   |   |       yo.js
+|   |   |   |       zh-CN.cjs
+|   |   |   |       zh-CN.d.cts
+|   |   |   |       zh-CN.d.ts
+|   |   |   |       zh-CN.js
+|   |   |   |       zh-TW.cjs
+|   |   |   |       zh-TW.d.cts
+|   |   |   |       zh-TW.d.ts
+|   |   |   |       zh-TW.js
+|   |   |   |
+|   |   |   \---mini
+|   |   |           checks.cjs
+|   |   |           checks.d.cts
+|   |   |           checks.d.ts
+|   |   |           checks.js
+|   |   |           coerce.cjs
+|   |   |           coerce.d.cts
+|   |   |           coerce.d.ts
+|   |   |           coerce.js
+|   |   |           external.cjs
+|   |   |           external.d.cts
+|   |   |           external.d.ts
+|   |   |           external.js
+|   |   |           index.cjs
+|   |   |           index.d.cts
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           iso.cjs
+|   |   |           iso.d.cts
+|   |   |           iso.d.ts
+|   |   |           iso.js
+|   |   |           package.json
+|   |   |           parse.cjs
+|   |   |           parse.d.cts
+|   |   |           parse.d.ts
+|   |   |           parse.js
+|   |   |           schemas.cjs
+|   |   |           schemas.d.cts
+|   |   |           schemas.d.ts
+|   |   |           schemas.js
+|   |   |
+|   |   \---v4-mini
+|   |           index.cjs
+|   |           index.d.cts
+|   |           index.d.ts
+|   |           index.js
+|   |           package.json
+|   |
+|   \---zod-validation-error
+|       |   LICENSE
+|       |   package.json
+|       |   README.md
+|       |   README.v3.md
+|       |
+|       +---v3
+|       |       index.d.mts
+|       |       index.d.ts
+|       |       index.js
+|       |       index.js.map
+|       |       index.mjs
+|       |       index.mjs.map
+|       |
+|       \---v4
+|               index.d.mts
+|               index.d.ts
+|               index.js
+|               index.js.map
+|               index.mjs
+|               index.mjs.map
+|
++---public
+|       vite.svg
+|
+\---src
+    |   App.css
+    |   App.jsx
+    |   index.css
+    |   main.jsx
+    |
+    \---assets
+            react.svg
+
+PS C:\Users\mkian\PyCharmMiscProject\clans>
