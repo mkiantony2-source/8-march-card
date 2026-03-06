@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@400;600&display=swap');
 
-/* Обнуление */
+:root {
+  --fz-title: clamp(28px, calc((100vw - 320px) / (768 - 320) * (38 - 28) + 28px), 38px);
+
+  --fz-message: clamp(14px, calc((100vw - 320px) / (768 - 320) * (16 - 14) + 14px), 16px);
+
+  --fz-signature: clamp(22px, calc((100vw - 320px) / (768 - 320) * (28 - 22) + 22px), 28px);
+
+  --fz-flowers: clamp(50px, calc((100vw - 320px) / (768 - 320) * (70 - 50) + 50px), 70px);
+
+  --fz-small: clamp(10px, calc((100vw - 320px) / (768 - 320) * (12 - 10) + 10px), 12px);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +35,6 @@ body, html {
   overflow: hidden;
 }
 
-/* Фон */
 .background-video {
   position: fixed;
   top: 50%;
@@ -47,22 +57,20 @@ body, html {
   z-index: -5;
 }
 
-/* Карточка */
 .card-container {
   position: relative;
   z-index: 10;
   background: rgba(255, 255, 255, 0.45); 
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  
   width: 90%;
   max-width: 380px;
-  /* Фиксируем высоту, чтобы элементы не прыгали */
-  height: 50vh; 
+  height: auto; 
   min-height: 400px;
+  max-height: 90vh;
+  overflow-y: auto; 
   border-radius: 40px;
   border: 1px solid rgba(255, 255, 255, 0.6);
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,17 +78,14 @@ body, html {
   text-align: center;
   color: #3d141f;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
-  
-  /* Анимация появления всей карточки */
   animation: slideUpMain 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
 
-/* Элементы внутри */
 .flowers {
   font-size: 70px;
   margin-bottom: 10px;
   cursor: pointer;
-  flex-shrink: 0; /* Чтобы не сжимались */
+  flex-shrink: 0;
 }
 
 .date-badge {
@@ -96,8 +101,6 @@ body, html {
   text-transform: uppercase;
   flex-shrink: 0;
 }
-
-/* Контейнер для текста, который появляется */
 .content-fade-in {
   display: flex;
   flex-direction: column;
@@ -108,14 +111,14 @@ body, html {
 
 .title {
   font-family: 'Marck Script', cursive;
-  font-size: 38px;
+  font-size: var(--fz-title);
   line-height: 1.1;
   margin-bottom: 15px;
 }
 
 .message {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: var(--fz-message);
   line-height: 1.5;
   font-weight: 600;
   margin-bottom: 15px;
@@ -126,12 +129,8 @@ body, html {
   font-size: 28px;
 }
 
-/* Кнопка */
-/* Кнопка */
 .open-button {
-  /* Убираем лишние margin и ставим авто-отступы по бокам */
-  margin: 50px auto 50px auto; 
-  
+  margin: 30px auto 30px auto; 
   background: #ff5c8a;
   color: white;
   border: none;
@@ -142,10 +141,8 @@ body, html {
   cursor: pointer;
   box-shadow: 0 8px 20px rgba(255, 92, 138, 0.4);
   transition: 0.3s;
-  
-  /* Гарантируем, что кнопка ведет себя как блочный элемент для центровки */
   display: block; 
-  width: fit-content; /* Кнопка будет подстраиваться под текст, а не растягиваться */
+  width: fit-content;
 }
 
 .open-button:hover {
@@ -154,8 +151,12 @@ body, html {
   box-shadow: 0 10px 25px rgba(255, 92, 138, 0.5);
 }
 
-/* НИЖНЯЯ ЧАСТЬ (Разделитель и футер) */
-/* Мы используем margin-top: auto, чтобы вытолкнуть их вниз */
+.march {
+  margin: 15px auto 0px auto;
+  width: 80%;
+}
+
+
 .divider {
   margin-top: auto; 
   padding-top: 20px;
@@ -173,7 +174,6 @@ body, html {
   letter-spacing: 1px;
 }
 
-/* Анимации */
 @keyframes slideUpMain {
   0% { opacity: 0; transform: translateY(100px) scale(0.9); }
   100% { opacity: 1; transform: translateY(0) scale(1); }
