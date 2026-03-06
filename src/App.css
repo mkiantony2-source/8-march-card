@@ -174,6 +174,82 @@ body, html {
   letter-spacing: 1px;
 }
 
+.image-card {
+  width: 27vh;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  margin: 20px 0;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-button {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ff7eb9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.photo-counter {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.slider-container {
+  width: 280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.photos-row {
+  display: flex;
+  flex-direction: row;
+  will-change: transform;
+}
+
+.image-wrapper.motion-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
 @keyframes slideUpMain {
   0% { opacity: 0; transform: translateY(100px) scale(0.9); }
   100% { opacity: 1; transform: translateY(0) scale(1); }
@@ -191,4 +267,19 @@ body, html {
 @keyframes bounceAnim {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.1) translateY(-10px); }
+}
+
+@keyframes infiniteScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
+}
+          
+.slider-track {
+  display: flex;
+  width: max-content;
+  animation: infiniteScroll 20s linear infinite; 
+}
+.slider-track:hover,
+.slider-track:active {
+  animation-play-state: paused;
 }
