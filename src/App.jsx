@@ -25,13 +25,12 @@ const PhotoSlider = ({ photos }) => {
         width: '100%', 
         maxWidth: '300px', 
         margin: '0 auto', 
-        overflowX: 'auto', // Включаем горизонтальный скролл
-        scrollSnapType: 'x mandatory', // Включаем "примагничивание" к слайдам
-        WebkitOverflowScrolling: 'touch', // Плавный скролл для iOS
-        scrollbarWidth: 'none', // Прячем скроллбар в Firefox
+        overflowX: 'auto',
+        scrollSnapType: 'x mandatory',
+        WebkitOverflowScrolling: 'touch',
+        scrollbarWidth: 'none',
       }}
     >
-      {/* Прячем скроллбар для Chrome/Safari через инлайн-стили для компонента */}
       <style>
         {`
           .slider-container::-webkit-scrollbar {
@@ -44,8 +43,8 @@ const PhotoSlider = ({ photos }) => {
         <div
           key={index}
           style={{
-            scrollSnapAlign: 'center', // Магнитим фото по центру
-            flex: '0 0 100%', // Каждое фото занимает 100% ширины контейнера
+            scrollSnapAlign: 'center',
+            flex: '0 0 100%',
             height: '400px',
             padding: '0 5px',
             boxSizing: 'border-box'
@@ -59,7 +58,7 @@ const PhotoSlider = ({ photos }) => {
               height: '100%',
               objectFit: 'cover',
               borderRadius: '25px',
-              pointerEvents: 'none' // Чтобы картинка не пыталась "сохраниться" при свайпе
+              pointerEvents: 'none'
             }}
           />
         </div>
